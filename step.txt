@@ -1,0 +1,23 @@
+create folder (Node API)
+create file server.js
+1.npm init -y (for package.json)
+2.install express :nmp i express
+ 
+const express = require('express')
+const app = express()
+
+//Routes
+app.get('/',(req, res)=>{
+    res.send("Hello Node API ")
+})
+
+
+app.listen(3000,()=>{
+    console.log("API is running on port 3000")
+})
+
+run:node server.js
+
+3.install nodemon :npm i nodemon -d
+4.connecting app with database : npm i mongoose
+
