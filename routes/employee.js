@@ -1,12 +1,5 @@
 const express = require('express')
-const {
-    createEmployeeControl,
-    getAllEmployeeControl,
-    getEmployeeByIdControl,
-    updateEmployeeByIdcontrol,
-    destroy,
-    deleteEmployeeByIdcontrol
-} = require('../controllers/EmployeeController')
+const {createEmployeeControl,getAllEmployeeControl,getEmployeeByIdControl,updateEmployeeByIdcontrol,destroy,deleteEmployeeByIdcontrol} = require('../controllers/EmployeeController')
 
 const router = express.Router()
 
